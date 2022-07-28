@@ -5,5 +5,5 @@ Python 3 Quake 3 RCON Client
 ## Usage
 
 ```python
-RCON('149.28.167.176', '806573').rcon("map q3dm17")
+RCON(server='149.28.167.176', password='806573', port=27960).rcon("map q3dm17")
 ```
